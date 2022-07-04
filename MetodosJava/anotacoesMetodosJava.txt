@@ -1,0 +1,17 @@
+Criação do Método
+
+<?visibilidade?> <?tipo?> <?modificador?> retorno nome (<?parâmetros?>) <?exceções?> corpo
+V: public, protected, private
+T: concreto, abstrato
+M: static(Permite chamar um método através de uma classe)  , final
+R: tipo de dado ou void
+ 
+
+Sobrecarga de método
+(Um mesmo método(mesmo nome) se comportando de formas diferentes)
+mantemos o nome e mudamos a lista de parâmetros
+ex: 	converterParaInteiro(float f);
+	converterParaInteiro(double d);
+	converterParaInteiro(float f, RoundType rd);
+
+	 
