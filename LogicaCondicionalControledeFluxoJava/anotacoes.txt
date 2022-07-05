@@ -1,0 +1,38 @@
+operadores relacionais
+Simbolos para comparação Ex: Maior, menor, igual, diferente
+em Java
+igualdade : ==
+diferença : !=
+Maior : > ou Maior Igual >=
+Menor : < ou Menor Igual<=
+
+operadores logicos
+Símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógicos ou expressões
+e, em seguida, retornar um resultado.
+Conjução && (e)
+Dijunção || (ou)
+Disjunção exclusiva ^ (xor)
+Negação ! (inverção)
+
+Controle de fluxo
+ex: If, if-else, switch e operador ternário
+for, while, do while
+break, continue e return
+
+Evitar o uso to operador ternário
+Operador ternário condição ? true : false
+		  ligado ? desligar : ligar
+			se ligado == true então desligar, se não então ligar;
+switch (olhos){
+	case "AZUIS":
+	break;
+	case "VERDES"
+	break;
+	default:
+	break;
+}
+
+Boas práticas
+Switch é para valores exatos e if para expressões booleanas
+N usar o dafault do switch para "cases genéricos"
+
