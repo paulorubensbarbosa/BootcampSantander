@@ -1,0 +1,16 @@
+Estruturas de repetição e arrays em java
+Continue só pode ser usado dentro de uma estrutura de repetição
+oque vier após ele, não é executado
+
+do while
+while
+for
+
+pra a variável ficar armazenando um número
+variavel += numero;
+
+array
+é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
+- Permanece com o mesmo tamanho depois de criados
+
+
