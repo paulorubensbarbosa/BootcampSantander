@@ -13,4 +13,7 @@ array
 é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
 - Permanece com o mesmo tamanho depois de criados
 
+length = retorna o tamanho do array
 
+Criação de um Array:
+String[] consoantes = new String[6];
