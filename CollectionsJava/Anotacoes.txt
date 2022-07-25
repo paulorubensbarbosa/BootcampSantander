@@ -1,0 +1,97 @@
+Coleções com interações ordenadas : List
+Coleções com singularidade : Set
+Coleções de pares : Map 
+
+colections é um objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de uma única unidade 
+Serve poara armazenar e processar conjunto de dados de forma eficiente
+
+Composição Collections:
+Interface
+Implementações ou classes
+Algoritmos 
+
+características principais da List:
+permite elementos duplicados e garante ordem de inserção
+	Array list deve ser usado onde mais operações de pesquisa são necessárias, e LinkedList deve ser usado onde mais operações de inserção e exclusão são necessárias
+
+
+COMO CRIAR UM ARRAY LIST
+
+List<Double> notas = new ArrayList<Double>();
+
+ADICIONAR UM ELEMENTO A LIST
+
+notas.add(7d);
+notas.add(7.0);
+
+adicionando nota 8 na posição 4 da list
+notas.add(4, 8.0);
+
+EXIBIR OS ELEMENTOS
+
+sysout(notas);
+sysout(notas.toString());
+
+EXIBIR A POSIÇÃO DE UM ITEM
+
+notas.indexOf(5d);
+
+Substituir um item
+
+notas.set(notas.indexOf(5d), 6.0); //primeiro diz a posição, nesse caso usamos o index of que retorna a posição do elemento passado e depois da virgula indicamos o valor que queremos colocar no lugar.
+
+VERIFICAR SE CONTEM DETERMINADO NUMERO NA LIST
+
+notas.contains(5d); //Irá retornar um boolean
+
+USAR FOREACH PRA EXIBIR OS ITENS DA LIST
+
+for (Double nota : notas) {
+	sysout(nota);
+}
+
+EXIBIR TERCEIRO ITEM
+
+notas.get(2);
+
+EXIBIR MENOR NOTA
+
+Collections.min(notas);
+
+EXIBIR MAIOR NOTA
+
+Collections.max(notas);
+
+SOMA DOS ITENS DE UMA LIST
+
+Iterator<Double> iterator = notas.iterator();
+Double soma = 0d;
+		
+while(iterator.hasNext()) {
+Double next = iterator.next();
+soma += next;
+}
+		
+System.out.println("Exiba a soma dos valores: " + soma); 
+
+EXIBIR MÉDIA
+
+soma / notas.size(); // somas é do exercício anterior
+
+REMOVER ITEM
+
+notas.remove(0); // Remove o item que está na posição 0 da list;
+notas.remove(0d); // Converti pra double, então remove o número 0 de dentro da list;
+
+REMOVER ITENS < 7
+		Iterator<Double> iterator1 = notas.iterator();
+		while(iterator1.hasNext()) {
+			Double next = iterator1.next();
+			if(next < 7.0) {
+				iterator1.remove();
+			}
+		}
+
+APAGAR TODA A LISTA
+	
+notas.clear();

@@ -17,3 +17,8 @@ length = retorna o tamanho do array
 
 Criação de um Array:
 String[] consoantes = new String[6];
+
+Criaçao do laço foreach
+for( String consoante"Criando uma variável do mesmo tipo do array" : consoantes"nome do array"){
+	
+}
