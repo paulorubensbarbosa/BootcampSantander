@@ -95,3 +95,67 @@ REMOVER ITENS < 7
 APAGAR TODA A LISTA
 	
 notas.clear();
+
+
+MAP
+CRIAR UM MAP
+	tipo da chave,	tipo do valor 
+Map	<String,	Double>  	carrosPolulares = new HashMap<>(){{
+	
+}};
+
+Para adicionar item no MAP se usa o método put
+	
+Map<String, Double> carrosPolulares = new HashMap<>(){{
+	put ("gol", 14.4);
+}}; 
+
+VERIFICAR SE CONTEM DETERMINADA CHAVE:
+
+carrosPopulares.containsKey("tucson"));
+
+
+
+----------------------------------------STREAM API-------------------------------------------
+CLASSE ANONIMA
+
+FUNCTIONAL INTERFACE
+
+EXPRESSÕES LAMBDA
+(argumento) -> (corpo)
+ meusGatos.sort(Comparator.comparing(Gato gato) -> gato.GetNome());
+
+//ORDENANDO UM MAP POR NÚMERO DE CONTATO(o número de contato está dentro da classe Contato)
+Set<Map.Entry<Integer, Contato>> set = new treeSet<>(Comparator.comparing(
+	cont -> cont.getValue.getNumero()
+));
+
+
+
+REFERENCE METHOD
+meusGatos.sort(Comparator.comparing(Gato::getNome));
+
+STREAM API
+
+Source - > Pipeline - > terminal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
